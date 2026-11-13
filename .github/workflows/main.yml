@@ -22,5 +22,5 @@ jobs:
         run: |
           test -f index.html
           grep -q "MY DEVOPS CLOUD LAB" index.html
-          grep -q "Version 999.0" index.html
+          grep -q "Version 2.0" index.html
           echo "All website checks passed!"
